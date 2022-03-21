@@ -1,0 +1,358 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  background: url("../images/bg-1.svg") no-repeat top center, url("../images/bg-2.svg") no-repeat center center, url("../images/bg-3.svg") no-repeat bottom center;
+  background-size: 100em, 100em, 100em;
+}
+
+h1 {
+  font-size: 3.5625rem;
+  font-weight: 900;
+  line-height: 4.875rem;
+  color: white;
+}
+
+header nav {
+  margin-top: 2.625rem;
+}
+
+header nav a.nav-link {
+  color: white !important;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+header nav a.nav-link.active {
+  font-weight: 800;
+}
+
+header nav a.nav-link:hover {
+  color: #ffd6b8 !important;
+}
+
+header nav .btn {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 600;
+}
+
+header nav .btn:hover {
+  color: #ffd6b8 !important;
+}
+
+header nav .btn.btn-outline-primary {
+  border: 1px solid white;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+header nav .btn.btn-outline-primary:hover {
+  background: white;
+  color: #ffd6b8 !important;
+}
+
+header nav .btn.btn-outline-primary:focus {
+  -webkit-box-shadow: 0 0 2px 2px white !important;
+          box-shadow: 0 0 2px 2px white !important;
+}
+
+header nav .btn:focus, header nav .btn:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+header .header {
+  margin-top: 4.25rem;
+}
+
+header .header .btn-custom {
+  margin-top: 2.25rem;
+  color: #428EFE;
+  font-size: 1.25rem;
+  font-weight: 800;
+  background-color: white;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 5rem;
+  -webkit-box-shadow: 0px 9px 31px rgba(255, 255, 255, 0.58);
+          box-shadow: 0px 9px 31px rgba(255, 255, 255, 0.58);
+}
+
+header .header .btn-custom span {
+  margin-left: 3.25rem;
+  padding: 1.25rem;
+  background-color: #428EFE;
+  -webkit-box-shadow: 0px 2px 23px rgba(66, 142, 254, 0.51);
+          box-shadow: 0px 2px 23px rgba(66, 142, 254, 0.51);
+}
+
+header .header .btn-custom:hover {
+  color: white;
+  background-color: #428EFE;
+  -webkit-box-shadow: 0px 9px 31px rgba(66, 142, 254, 0.58);
+          box-shadow: 0px 9px 31px rgba(66, 142, 254, 0.58);
+}
+
+header .header .btn-custom:hover span {
+  background-color: white;
+  -webkit-box-shadow: 0px 2px 23px rgba(255, 255, 255, 0.58);
+          box-shadow: 0px 2px 23px rgba(255, 255, 255, 0.58);
+}
+
+header .header .btn-custom:hover span img {
+  -webkit-filter: invert(44%) sepia(84%) saturate(468%) hue-rotate(178deg) brightness(102%) contrast(106%);
+          filter: invert(44%) sepia(84%) saturate(468%) hue-rotate(178deg) brightness(102%) contrast(106%);
+}
+
+section.daftar {
+  margin-top: 2.75rem;
+}
+
+section.daftar .section-title {
+  max-width: 31rem;
+}
+
+section.daftar .section-title h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 2.75rem;
+}
+
+section.daftar .section-title h2 span {
+  font-size: 2rem;
+  color: #FF9B52;
+}
+
+section.daftar .section-title p {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  text-align: justify;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+section.daftar .section-title .btn-custom {
+  margin-top: 2.25rem;
+  color: #428EFE;
+  font-size: 1.25rem;
+  font-weight: 800;
+  background-color: white;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 5rem;
+  -webkit-box-shadow: 0px 9px 31px rgba(215, 215, 215, 0.58);
+          box-shadow: 0px 9px 31px rgba(215, 215, 215, 0.58);
+}
+
+section.daftar .section-title .btn-custom span {
+  margin-left: 3.25rem;
+  padding: 1.25rem;
+  background-color: #428EFE;
+  -webkit-box-shadow: 0px 2px 23px rgba(66, 142, 254, 0.51);
+          box-shadow: 0px 2px 23px rgba(66, 142, 254, 0.51);
+}
+
+section.daftar .section-title .btn-custom:hover {
+  color: white;
+  background-color: #428EFE;
+  -webkit-box-shadow: 0px 9px 31px rgba(66, 142, 254, 0.58);
+          box-shadow: 0px 9px 31px rgba(66, 142, 254, 0.58);
+}
+
+section.daftar .section-title .btn-custom:hover span {
+  background-color: white;
+  -webkit-box-shadow: 0px 2px 23px rgba(255, 255, 255, 0.58);
+          box-shadow: 0px 2px 23px rgba(255, 255, 255, 0.58);
+}
+
+section.daftar .section-title .btn-custom:hover span img {
+  -webkit-filter: invert(44%) sepia(84%) saturate(468%) hue-rotate(178deg) brightness(102%) contrast(106%);
+          filter: invert(44%) sepia(84%) saturate(468%) hue-rotate(178deg) brightness(102%) contrast(106%);
+}
+
+section.daftar .section-featured .card {
+  border: none;
+  max-width: 14.75rem;
+  height: 15.125rem;
+  border-radius: 1.25rem;
+}
+
+section.daftar .section-featured .card .card-body {
+  border-radius: 1.25rem;
+  -webkit-box-shadow: 0px 4px 8px rgba(175, 175, 175, 0.25);
+          box-shadow: 0px 4px 8px rgba(175, 175, 175, 0.25);
+}
+
+section.daftar .section-featured .card .card-body p {
+  margin-top: 1.625rem;
+  color: #A1AEBD;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+section.daftar .section-featured .card .card-body.card-1 {
+  border-radius: 1.25rem 1.25rem 0 1.25rem;
+}
+
+section.daftar .section-featured .card .card-body.card-2 {
+  border-radius: 1.25rem 1.25rem 1.25rem 0;
+}
+
+section.daftar .section-featured .card .card-body.card-3 {
+  border-radius: 1.25rem 0 1.25rem 1.25rem;
+}
+
+section.daftar .section-featured .card .card-body.card-4 {
+  border-radius: 0 1.25rem 1.25rem 1.25rem;
+}
+
+section.market {
+  margin-top: 8rem;
+}
+
+section.market .section-title h2 {
+  font-size: 1.75rem;
+  color: white;
+}
+
+section.market .section-title h2 span {
+  color: #FF9B52 !important;
+}
+
+section.market .section-title p {
+  margin-top: 2.1875rem;
+  color: white;
+  line-height: 1.25rem;
+}
+
+section.market .btn-market {
+  background-color: white;
+  padding: .8125rem 4.0625rem;
+}
+
+section.market img {
+  max-width: 100%;
+  top: -25px;
+}
+
+section.market .card {
+  margin-top: 14.375rem;
+  border-radius: .5rem;
+  border: none;
+}
+
+section.market .card .card-body {
+  height: 13.25rem;
+  -webkit-box-shadow: 0px 4px 38px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 38px rgba(0, 0, 0, 0.25);
+  border-radius: .5rem;
+  text-align: center;
+}
+
+section.market .card .card-body p {
+  color: #456580;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.625rem;
+}
+
+section.market .card .card-body p span {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2.375rem;
+}
+
+section.doc {
+  margin-top: 15.625rem;
+}
+
+section.pertanyaan {
+  margin-top: 9.625rem;
+}
+
+section.pertanyaan .card {
+  border: none;
+  background-color: transparent;
+}
+
+section.pertanyaan .card .card-body {
+  padding: 3.75rem 2.25rem;
+  background-color: #6D62CA;
+  border-radius: 30px 30px 0px 0px;
+  -webkit-box-shadow: 0px 9px 21px rgba(117, 95, 201, 0.48);
+          box-shadow: 0px 9px 21px rgba(117, 95, 201, 0.48);
+}
+
+section.pertanyaan .card .card-body .section-title {
+  max-width: 21.5rem;
+}
+
+section.pertanyaan .card .card-body .section-title h2 {
+  color: white;
+  font-weight: 500;
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+}
+
+section.pertanyaan .card .card-body .section-title h2 span {
+  font-weight: 700;
+  color: #FF9B52;
+}
+
+section.pertanyaan .card .card-body .section-title p {
+  margin-top: 1.625rem;
+  color: white;
+}
+
+section.pertanyaan .card .card-body .line-dv {
+  border-left: 1px solid white;
+  padding-left: 60px;
+}
+
+section.pertanyaan .card .card-body .btn-custom {
+  color: #FF9B52;
+  font-size: 1.25rem;
+  font-weight: 800;
+  background-color: white;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 5rem;
+  -webkit-box-shadow: 0px 9px 31px rgba(215, 215, 215, 0.58);
+          box-shadow: 0px 9px 31px rgba(215, 215, 215, 0.58);
+}
+
+section.pertanyaan .card .card-body .btn-custom span {
+  margin-left: 3.25rem;
+  padding: 1.25rem;
+  background-color: #FF9B52;
+  -webkit-box-shadow: 0px 16px 28px rgba(255, 147, 72, 0.2);
+          box-shadow: 0px 16px 28px rgba(255, 147, 72, 0.2);
+}
+
+section.pertanyaan .card .card-body .btn-custom:hover {
+  color: white;
+  background-color: #FF9B52;
+  -webkit-box-shadow: 0px 16px 28px rgba(255, 147, 72, 0.2);
+          box-shadow: 0px 16px 28px rgba(255, 147, 72, 0.2);
+}
+
+section.pertanyaan .card .card-body .btn-custom:hover span {
+  background-color: white;
+  -webkit-box-shadow: 0px 2px 23px rgba(255, 255, 255, 0.58);
+          box-shadow: 0px 2px 23px rgba(255, 255, 255, 0.58);
+}
+
+section.pertanyaan .card .card-body .btn-custom:hover span img {
+  -webkit-filter: invert(68%) sepia(73%) saturate(737%) hue-rotate(322deg) brightness(200%) contrast(101%);
+          filter: invert(68%) sepia(73%) saturate(737%) hue-rotate(322deg) brightness(200%) contrast(101%);
+}
+/*# sourceMappingURL=main.css.map */
